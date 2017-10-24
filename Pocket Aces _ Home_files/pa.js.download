@@ -1,0 +1,24 @@
+var pa = {
+	init: function() {
+		pa.initDrawer();
+		//pa.initFullpage();
+	},
+	
+	initDrawer: function() {
+		$(".drawer").drawer({
+			apiToggleClass: "drawer-toggle"
+		});
+	},
+	
+	initFullpage: function() {
+		$('.fullpage').fullpage({
+			responsiveHeight: '900'
+		});
+	},
+	
+	scrollToElement: function(element) {
+		$('html, body').stop(true, false).animate({
+			scrollTop: $(element).offset().top
+		}, 'slow', 'swing');
+	},
+}
