@@ -1,0 +1,388 @@
+body {
+    margin: 0px;
+    font-family: arial;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h1,
+h2,
+h3,
+hr,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: #cfcfcf;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 2px 4px darkslategrey;
+    z-index: 10000;
+}
+
+#header .logo {
+    width: 13%;
+    margin-top: 8px;
+}
+
+#header .logo img {
+    width: 100%;
+}
+
+#main-navigation {
+    width: 40%;
+    margin-left: 20px;
+}
+
+#main-navigation ul {
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+#main-navigation ul li {
+    display: inline-block;
+    padding: 5px 0px;
+
+}
+
+#main-navigation ul li a {
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+#main-navigation ul li:hover {
+    background-color: darkgrey;
+}
+
+.signup:hover {
+    background-color: darkgrey;
+}
+
+.user_section {
+    margin-right: 30px;
+}
+
+.user_section ul {
+    list-style: none;
+    margin: 0px;
+    display: inline-block;
+}
+
+.user_section ul li {
+    display: inline-block;
+    margin-top: 6px;
+
+}
+
+.user_section ul li a {
+    color: #222;
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-family: "serif";
+}
+
+.signup {
+    border: 2px darkgrey solid;
+
+}
+
+#main-navigation .dropdown {
+    background-color: #F5F5F5;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0px;
+    display: none;
+    z-index: 100;
+}
+
+.dropdown ul {
+    display: inline-block;
+}
+
+.dropdown ul li {
+    display: inline-block;
+    width: 23%;
+}
+
+.dropdown ul li a {
+    color: #222;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "serif";
+}
+
+#main-navigation ul li:hover .dropdown {
+    display: inline-block;
+}
+
+.dropdown ul li a img {
+    width: 100%;
+}
+
+.content {
+    padding-top: 80px;
+}
+
+.sidebar {
+    width: 26%;
+}
+
+.headingrec h3 {
+    font-size: 22px;
+}
+
+/*.sidebar div ul{*/
+
+/*list-style: none;*/
+/*display: inline-block;*/
+/*margin: 0px;*/
+/*padding: 0px;*/
+/*}*/
+/*.sidebar div ul li{*/
+/*display: inline-block;*/
+/*}*/
+/*.sidebar div ul li a{*/
+/*display: inline-block;*/
+/*color: #000;*/
+/*}*/
+/*.sidebar div ul li a img{*/
+/*width:25%;*/
+/*!*display: inline;*!*/
+/*}*/
+/*.sidebar div ul li a span{*/
+/*margin: 0px;*/
+/*padding:0px;*/
+/*}*/
+.sidebar ul {
+    padding: 0px;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+    padding-bottom: 12px;
+    list-style: none;
+    border-bottom: 1px solid #CDCDCD;
+    position: relative;
+}
+
+.sidebar ul li div img {
+    width: 23%;
+}
+
+.sidebar ul li:after {
+    content: '1';
+    font-size: 70px;
+    font-weight: bold;
+    color: #CDCDCD;
+    position: absolute;
+    right: 0px;
+    top: -10px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.sidebar ul li div div {
+    width: 75%;
+    float: right;
+    padding: 0px auto;
+    font-size: 13px;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+    color: #0f0f0f;
+}
+
+.sidebar ul li:hover:after {
+    color: #bb0000;
+}
+
+.slider {
+    width: 70%;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+}
+
+.slider img::before {
+    width: 100%;
+    opacity: 0.7;
+    background-color: #000000;
+}
+
+.slider div span {
+    position: absolute;
+    bottom: 50px;
+    font-size: 30px;
+    padding: 0px auto;
+    width: 90%;
+    right: 30px;
+    color: #fff;
+}
+
+.newsletter {
+    margin: 40px 20px;
+    padding: 15px;
+    width: 85%;
+    background-color: lightgrey;
+}
+
+.newsletter h4 {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.refer {
+    width: 100%;
+    color: #0a72b2;
+    text-align: center;
+}
+
+.worthalook {
+    width: 100%;
+}
+
+.worthalook h3 {
+    font-size: 22px;
+    margin-top: 40px;
+}
+
+.worthalook span {
+    font-size: 12px;
+    padding-top: 5px;
+    display: block;
+    text-align: right;
+}
+
+.list {
+    margin-top: 20px;
+    width: 70%;
+    padding-bottom: 10px;
+    position: relative;
+    border-bottom: 1px solid lightgrey;
+}
+.list div img {
+    width: 35%;
+}
+.list div{
+    overflow: hidden;
+}
+.list div img:hover{
+    transform: scale(1.2);
+}
+.description h4 {
+    top: 0%;
+    right: 0;
+    font-size: 28px;
+    padding: 2px 16px 0px 2px;
+    position: absolute;
+}
+
+.description h4:hover {
+    color: #0c8bd9;
+}
+
+.span1 {
+    position: absolute;
+    left: 36%;
+    font-size: 15px;
+    color: darkslategrey;
+    top: 50%;
+}
+
+.span2 {
+    position: absolute;
+    left: 50%;
+    font-size: 15px;
+    color: darkslategrey;
+    top: 50%;
+}
+
+.span3 {
+    position: absolute;
+    left: 95%;
+    font-size: 15px;
+    color: darkslategrey;
+    top: 50%;
+}
+
+.footer {
+ border-top: 2px #d5d5d5 solid;
+    position: relative;
+    background-color: #f0f0f0;
+}
+
+.copy {
+    font-size: 12px;
+    width: 100%;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.footer :first-child {
+
+}
+
+.footer :first-child ul {
+    left: 15%;
+    position: absolute;
+ list-style: none;
+    padding: 0px;
+    display: inline-block;
+}
+.footer div div ul li{
+    padding:4px 0px 0px;
+}
+.refer1 {
+    left: 42%;
+    position: absolute;
+    bottom:30%;
+    display: inline-block;
+}
+
+.newsletter1 {
+    left: 40%;
+    bottom: 50%;
+    background-color: #cfcfcf;
+    padding:20px;
+    position: absolute;
+    display: inline-block;
+}
+.footer div div ul li a{
+    font-size:small;
+}
